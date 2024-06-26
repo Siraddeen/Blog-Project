@@ -4,14 +4,26 @@ export const Quote = () => {
       <div className=" flex justify-center">
         <div className=" max-w-lg">
           <div className=" text-3xl font-bold">
-            big message is that you know you can do it, so go for it man.
+            A small project for keeping your notes/blogs together in a place
           </div>
           <div className=" max-w-md text-xl font-semibold text-left mt-4">
-            demon slayer
+            Siraddeen
           </div>
           <div className=" max-w-md text-sm font-light text-slate-400">
-            jenitsu
+            in learning phase
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <p className="italic">
+            Kindly wait for a moment to get signUp, cause backend has to wakeup
+          </p>
         </div>
       </div>
     </div>

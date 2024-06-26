@@ -6,7 +6,7 @@ export const Appbar = () => {
     <div className=" border-b flex justify-between px-10  py-4 bg-gradient-to-r from-gray-100 to-gray-800">
       <Link
         to={"/blogs"}
-        className=" flex flex-col justify-center cursor pointer"
+        className=" flex flex-col justify-center cursor pointer hover:scale-105 transition duration-200"
       >
         Medium
       </Link>
@@ -15,9 +15,9 @@ export const Appbar = () => {
           <button
             type="button"
             className="mr-6 text-white bg-green-700 hover:bg-green-800 focus:outline-none 
-      focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+      focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 transform hover:scale-105 transition duration-200"
           >
-            New
+            New Blog
           </button>
         </Link>
 
